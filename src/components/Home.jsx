@@ -8,7 +8,7 @@ import Header from "./Header";
 
 const Home = () => {
 //   const [book, setBook] = useState(null);
-    const [book, setBook] = useState("Sherlock Holmes");
+    const [book, setBook] = useState(null);
 
   const results = useQuery(["search", book], fetchBooks);
 
