@@ -1,0 +1,24 @@
+.books {
+  display: grid;
+  /* grid minmax 300px */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+  grid-gap: 1rem;
+}
+
+.book {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  grid-gap: 1rem;
+}
+
+.back{
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  grid-gap: 1rem;
+  border: 2px solid green;
+  margin: 1rem;
+}
