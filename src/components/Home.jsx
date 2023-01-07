@@ -4,7 +4,7 @@ import fetchBooks from "../hooks/fetchBooks";
 import SearchResults from "./SearchResults";
 
 import SearchForm from "./SearchForm";
-import Header from "./Header";
+
 
 const Home = () => {
 //   const [book, setBook] = useState(null);
@@ -13,12 +13,20 @@ const Home = () => {
   const results = useQuery(["search", book], fetchBooks);
 
   return (
-    <main>
-      <Header />
+    <>
+      
+      <main>
+        <div className="form-container">
+        <SearchForm onSubmit={setBook} />
+        </div>
 
-      <SearchForm onSubmit={setBook} />
-      <SearchResults results={results} />
-    </main>
+        <div className="result-container">
+        <SearchResults results={results} />
+        </div>
+        
+      </main>
+    </>
+    
   );
 };
 
