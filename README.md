@@ -62,11 +62,13 @@ A React-based application that allows users to search for books, view book detai
 5. Open <http://localhost:5173> to view it in the browser.
 
 Live Project
-<https://booksexplorer-coral.vercel.app/>
+<https://booksexplorer.vercel.app/>
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/95668340/212999037-5988d66c-46ae-48dc-8220-85f8b5473654.png)
 
-![image](https://user-images.githubusercontent.com/95668340/212994704-95dd2d0e-089c-4541-873c-49252e79855f.png)
+![image](https://user-images.githubusercontent.com/95668340/212999115-e25efa16-e201-4576-97ca-0bbcdc1f0c00.png)
+
 
 ## Feedback
 
