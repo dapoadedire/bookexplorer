@@ -61,7 +61,8 @@ A React-based application that allows users to search for books, view book detai
 
 5. Open <http://localhost:5173> to view it in the browser.
 
-Live Project
+## Live Project
+
 <https://booksexplorer.vercel.app/>
 
 ## Screenshots
