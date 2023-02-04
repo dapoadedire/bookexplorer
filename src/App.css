@@ -1,8 +1,6 @@
-
-
-body{
+body {
   background-color: #242e22;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #e7e8cd;
 }
 
@@ -26,7 +24,8 @@ body{
 }
 
 .book:hover {
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+    rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }
 
 .book img {
@@ -36,47 +35,46 @@ body{
   margin-bottom: 0.5rem;
 }
 
-
-.book .title{
+.book .title {
   font-size: 1.3rem;
   margin: 1rem 0;
   color: #e7e8cd;
   /* text-decoration: none; */
 }
 
-.book .title:hover{
+.book .title:hover {
   text-decoration: underline;
   color: #ebdcb9;
 }
 
-.book .author{
+.book .author {
   font-size: 1.2rem;
   margin: 1rem 0;
   color: #e7e8cd;
 }
 
-.form-container{
+.form-container {
   margin: 2rem 0;
   border: 1px solid #e7e8cd6e;
   padding: 1rem;
   border-radius: 5px;
 }
 
-.form-container form{
+.form-container form {
   display: flex;
 
   align-items: center;
   justify-content: center;
   gap: 1rem;
 }
-.form-container form label{
+.form-container form label {
   font-size: 1.5rem;
   margin-right: 1rem;
   font-weight: 600;
 }
 
-.form-container form input{
-   padding: 1rem;
+.form-container form input {
+  padding: 1rem;
   border: 2px solid #e7e8cd6e;
   border-radius: 5px;
   margin-right: 1rem;
@@ -84,7 +82,7 @@ body{
   font-size: 1rem;
 }
 
-.form-container form button{
+.form-container form button {
   padding: 1rem;
   border: 2px solid #e7e8cd6e;
   border-radius: 5px;
@@ -93,15 +91,15 @@ body{
   font-size: 1rem;
 }
 
-.form-container form button:active{
+.form-container form button:active {
   background-color: #e7e8cd6e;
 }
 
-.form-container form button:hover{
+.form-container form button:hover {
   background-color: #f2f2f2;
 }
 
-.result-container{
+.result-container {
   margin: 2rem 0;
   border: 1px solid #e7e8cd6e;
   padding: 1rem;
@@ -109,8 +107,7 @@ body{
   min-height: 60vh;
 }
 
-
-.show-more{
+.show-more {
   padding: 0.8rem;
   border: 1px solid rgba(95, 93, 93, 0.534);
   border-radius: 5px;
@@ -120,17 +117,15 @@ body{
   font-size: 1.2rem;
 }
 
-.show-more:active{
+.show-more:active {
   background-color: #e7e8cd6e;
 }
 
-.show-more:hover{
+.show-more:hover {
   background-color: #f2f2f2;
 }
 
-
-
-.book-description{
+.book-description {
   display: flex;
   gap: 2rem;
   border: 1px solid #e7e8cd6e;
@@ -139,18 +134,18 @@ body{
   margin: 2rem 0;
 }
 
-.book-description .book-image{
+.book-description .book-image {
   flex: 1;
 }
 
-.book-description .book-image img{
+.book-description .book-image img {
   width: 100%;
   object-fit: cover;
   border-radius: 5px;
   margin-bottom: 0.5rem;
 }
 
-.book-description .other-details{
+.book-description .other-details {
   flex: 1;
   padding: 1rem;
   display: flex;
@@ -160,43 +155,39 @@ body{
   border-radius: 5px;
 }
 
-
-.book-description .other-details .title{
+.book-description .other-details .title {
   font-size: 2rem;
   margin: 1rem 0;
   color: #eaeca3;
   /* text-decoration: none; */
 }
 
-.book-description .other-details .title:hover{
+.book-description .other-details .title:hover {
   text-decoration: underline;
   color: #ebdcb9;
 }
 
-
-.book-description .other-details .author{
+.book-description .other-details .author {
   font-size: 1.3rem;
   margin: 0.5rem 0;
   color: #e7e8cd;
   font-style: italic;
 }
 
-.book-description .other-details .description{
+.book-description .other-details .description {
   font-size: 1.2rem;
   margin: 1rem 0;
   color: #e7e8cdd3;
   line-height: 1.6rem;
 }
 
-
-.book-description .other-details .category{
+.book-description .other-details .category {
   font-size: 1.2rem;
   margin: 1rem 0;
   color: #e7e8cd;
 }
 
-
-.back button{
+.back button {
   padding: 0.8rem;
   border: 1px solid rgba(95, 93, 93, 0.534);
   border-radius: 5px;
@@ -207,14 +198,6 @@ body{
   font-weight: bold;
   color: #242e22;
 }
-
-
-
-
-
-
-
-
 
 .loading-spinner {
   display: flex;
@@ -239,8 +222,6 @@ body{
   animation: spin 1s linear infinite;
 }
 
-
-
 .loading-spinner__circle--inner {
   height: 30px;
   width: 30px;
@@ -254,32 +235,28 @@ body{
   }
 }
 
-
-
 @media screen and (max-width: 768px) {
-  .book-description{
+  .book-description {
     flex-direction: column;
   }
 
-  .form-container form{
+  .form-container form {
     flex-direction: column;
   }
 
-  .form-container form label{
+  .form-container form label {
     margin-bottom: 0.5rem;
   }
 
-  .form-container form input{
+  .form-container form input {
     margin-bottom: 0.5rem;
   }
 
-  .form-container form button{
+  .form-container form button {
     margin-bottom: 0.5rem;
   }
 
-  .book-description .book-image{
+  .book-description .book-image {
     margin-bottom: 1rem;
   }
-
-  
 }

@@ -5,28 +5,24 @@ import SearchResults from "./SearchResults";
 
 import SearchForm from "./SearchForm";
 
-
 const Home = () => {
-//   const [book, setBook] = useState(null);
-    const [book, setBook] = useState(null);
+  //   const [book, setBook] = useState(null);
+  const [book, setBook] = useState(null);
 
   const results = useQuery(["search", book], fetchBooks);
 
   return (
     <>
-      
       <main>
         <div className="form-container">
-        <SearchForm onSubmit={setBook} />
+          <SearchForm onSubmit={setBook} />
         </div>
 
         <div className="result-container">
-        <SearchResults results={results} />
+          <SearchResults results={results} />
         </div>
-        
       </main>
     </>
-    
   );
 };
 

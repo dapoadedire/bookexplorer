@@ -1,4 +1,4 @@
-import {useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import notFoundImage from "../assets/react.svg";
 
@@ -12,9 +12,7 @@ if (window.innerWidth < 768) {
   count = 10;
 }
 
-
 const SearchResults = ({ results }) => {
-  
   const [displayCount, setDisplayCount] = useState(count);
 
   const handleShowMore = () => {
@@ -31,10 +29,8 @@ const SearchResults = ({ results }) => {
     <div>{results.error.message}</div>
   ) : (
     <>
-    <div className="books">
-      {results.data.items
-        .slice(0, displayCount)
-        .map((item) => {
+      <div className="books">
+        {results.data.items.slice(0, displayCount).map((item) => {
           return (
             <div key={item.id} className="book">
               <img
@@ -52,14 +48,13 @@ const SearchResults = ({ results }) => {
             </div>
           );
         })}
-     
-    </div>
-     {
-    displayCount < results.data.items.length && (
-      <button onClick={handleShowMore} className="show-more">Show More</button>
-    )
-  }
-  </>
+      </div>
+      {displayCount < results.data.items.length && (
+        <button onClick={handleShowMore} className="show-more">
+          Show More
+        </button>
+      )}
+    </>
   );
 };
 
