@@ -5,18 +5,11 @@ const SearchForm = ({ onSubmit }) => {
   };
 
   return (
-  
-     
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="book">
-            Search for a book:
-           
-          </label>
-        <input type="text" name="book" />
-          <button type="submit">Submit</button>
-        </form>
-      
-    
+    <form onSubmit={handleSubmit}>
+      <label htmlFor="book">Search for a book:</label>
+      <input type="text" name="book" />
+      <button type="submit">Submit</button>
+    </form>
   );
 };
 

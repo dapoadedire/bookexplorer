@@ -3,8 +3,7 @@ import fetchBookDetails from "../hooks/fetchBookDetails";
 import { useQuery } from "@tanstack/react-query";
 import { Link } from "react-router-dom";
 import notFoundImage from "../assets/react.svg";
-import parse from 'html-react-parser';
-
+import parse from "html-react-parser";
 
 const BookDetails = () => {
   const { id } = useParams();
@@ -19,17 +18,14 @@ const BookDetails = () => {
   }
 
   if (results.data) {
-
-   
-
     return (
       <div className="details-container">
-       <div className="back">
+        <div className="back">
           <Link to="/">
             <button className="back">Back</button>
           </Link>
-       </div>
-        
+        </div>
+
         <div className="book-description">
           <div className="book-image">
             <img
@@ -49,21 +45,11 @@ const BookDetails = () => {
               {parse(results.data.volumeInfo.description)}
             </p>
             <p className="category">{results.data.volumeInfo.categories}</p>
-            
-            
           </div>
-         
-         
         </div>
       </div>
     );
   }
 };
 
-
-
-
-    
 export default BookDetails;
-
-

@@ -3,6 +3,7 @@
 A React-based application that allows users to search for books, view book details, and track their search history. The application is built using a variety of technologies such as React, React Router, @tanstack/react-query, HTML React Parser, ESLint, Prettier, Vite, and Font Awesome.
 
 ## Tech Stack
+
 - React: A JavaScript library for building user interfaces
 - React Router: A library for routing in React applications
 - @tanstack/react-query: A library that allows for the management of asynchronous data in React applications
@@ -13,6 +14,7 @@ A React-based application that allows users to search for books, view book detai
 - Font Awesome: A library that provides scalable vector icons that can be easily customized (size, color, drop shadow, etc.)
 
 ## Lessons Learned
+
 - Routing in React: This project allowed for the practice of routing in a React application using React Router.
 - Managing asynchronous data in React: The @tanstack/react-query library was utilized to manage asynchronous data in the application.
 - Parsing and displaying HTML in React: The HTML React Parser library was utilized to parse and display HTML strings as React components.
@@ -24,10 +26,6 @@ A React-based application that allows users to search for books, view book detai
 
 - Search feature: Users can search for books and view book details.
 - View book details: Users can view book details such as title, author, description, and categories.
-
-
-
-
 
 ## Authors
 
@@ -66,10 +64,10 @@ A React-based application that allows users to search for books, view book detai
 <https://bookexplorer.vercel.app/>
 
 ## Screenshots
+
 ![image](https://user-images.githubusercontent.com/95668340/212999037-5988d66c-46ae-48dc-8220-85f8b5473654.png)
 
 ![image](https://user-images.githubusercontent.com/95668340/212999115-e25efa16-e201-4576-97ca-0bbcdc1f0c00.png)
-
 
 ## Feedback
 
