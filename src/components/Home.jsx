@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useQuery } from "@tanstack/react-query";
 import fetchBooks from "../hooks/fetchBooks";
 import SearchResults from "./SearchResults";
-
+import Header from "./Header";
 import SearchForm from "./SearchForm";
 
 
@@ -14,6 +14,7 @@ const Home = () => {
 
   return (
     <>
+      <Header />
       
       <main>
         <div className="form-container">
