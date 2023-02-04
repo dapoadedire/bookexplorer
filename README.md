@@ -1,4 +1,4 @@
-# BooksExplorer
+# BookExplorer
 
 A React-based application that allows users to search for books, view book details, and track their search history. The application is built using a variety of technologies such as React, React Router, @tanstack/react-query, HTML React Parser, ESLint, Prettier, Vite, and Font Awesome.
 
@@ -38,13 +38,13 @@ A React-based application that allows users to search for books, view book detai
 1. Clone the project
 
 ```bash
-  git clone https://github.com/dapoadedire/booksexplorer.git
+  git clone https://github.com/dapoadedire/bookexplorer.git
 ```
 
 2. Go to the project directory
 
 ```bash
-  cd booksexplorer
+  cd bookexplorer
 ```
 
 3. Install dependencies
@@ -63,7 +63,7 @@ A React-based application that allows users to search for books, view book detai
 
 ## Live Project
 
-<https://booksexplorer.vercel.app/>
+<https://bookexplorer.vercel.app/>
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/95668340/212999037-5988d66c-46ae-48dc-8220-85f8b5473654.png)
